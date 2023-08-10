@@ -1,0 +1,5 @@
+#exercicio3
+salario_func = float(input("Digite seu salario aqui: "))
+salario_min = 1302
+Qnt_salario = salario_func / salario_min
+print(f"vc recebe o total de: {Qnt_salario}")
