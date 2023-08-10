@@ -1,1 +1,7 @@
-
+ #exercicio2
+import datetime
+hoje = datetime.date.today()
+ano_atual = hoje.year
+ano_nascimento = int(input("Qual seu ano de nascimento: "))
+idade = ano_atual - ano_nascimento
+print(f"legal, entao vc tem {idade}")
