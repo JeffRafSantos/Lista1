@@ -1,0 +1,6 @@
+#exercicio4
+Diameter = int(input("Insert the diemeter: "))
+PI = 3.14159265359
+Radius = Diameter / 2
+Area = PI*Radius**2
+print (f" The area is: {Area}")
