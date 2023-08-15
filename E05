@@ -1,0 +1,9 @@
+#exercicio5
+Value = float(input("Insert the value of product: "))
+P_3 = Value + (Value * 0.05)
+V_P3 = P_3 / 3
+print (f"Installments in 3 installments with 5% interest: {V_P3}")
+P_2 = Value / 2
+print(f"Installments in 2 interest-free installments: {P_2}")
+P_1 = Value - (Value * 0.05)
+print(f"Cash payment with 5% discount: {P_1}")
