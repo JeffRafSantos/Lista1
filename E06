@@ -1,0 +1,5 @@
+cateto_1 = int(input("qual o valor do cateto 1: "))
+cateto_2 = int(input("qual o valor do cateto 2: "))
+soma = (cateto_1**2) + (cateto_2**2)
+hipotenusa = soma**(1/2)
+print(f"A Hipotenusa desse triangulo retangulo é: {hipotenusa}")
