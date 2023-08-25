@@ -1,0 +1,5 @@
+#Lista1_E09
+razao = int(input("Insira a razão: "))
+termo_1 = int(input("Insira o primeiro termo: "))
+termo_25 = termo_1*(razao**24)
+print(f"O 25° termo é: {termo_25}")
