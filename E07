@@ -1,0 +1,14 @@
+#Lista1_E07
+H = int(input("Insira as horas: "))
+M = int(input("Insira os minutos: "))
+S = int(input("Insira os segundos: "))
+Min_H = H*60
+if S == 60:
+    Min_M = Min_H + M + 1
+else:
+    Min_M = Min_H + M
+print(f"Passaram-se: {Min_M} minutos!")
+seg_H = H*3600
+seg_M = M*60
+seg = seg_M + seg_H + S
+print(f"Passaram-se: {seg} segundos!")
