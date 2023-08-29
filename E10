@@ -1,0 +1,13 @@
+#Lista1_E10
+from math import ceil
+altura = float(input("Insira a altura: "))
+raio = float(input("Insira o raio: "))
+area_L = 2 * 3.14 * altura * raio
+area_C = 2 * 3.14 * (raio**2)
+area_T = area_L + area_C
+lata_m2 = 15
+lata_p = 50
+Num_lata = ceil(area_T/lata_m2)
+custo = Num_lata * lata_p
+print(f"Serão necessárias: {Num_lata} latas")
+print(f"O custo total é: {custo} reais")
