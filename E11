@@ -1,0 +1,5 @@
+#Lista1_E11
+nome = input("Insira seu nome: ")
+nome = nome.upper()
+print(f"Olá, seja Bem-vindo {nome}!")
+print(f"Seu nome possui {len(nome)} letras!")
